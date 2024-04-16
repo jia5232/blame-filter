@@ -2,7 +2,6 @@ annotated-types==0.6.0
 anyio==4.3.0
 click==8.1.7
 fastapi==0.110.1
-fasttext @ file:///Users/kwonjia/Desktop/blame-filter/fastText
 h11==0.14.0
 idna==3.7
 joblib==1.4.0
