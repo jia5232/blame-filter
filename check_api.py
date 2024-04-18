@@ -14,7 +14,7 @@ app = FastAPI()
 class TextData(BaseModel):
     message: str
 
-model_bundle = load('model.joblib')
+model_bundle = load('model2.joblib')
 model = model_bundle['model']
 vectorizer = model_bundle['vectorizer']
 
