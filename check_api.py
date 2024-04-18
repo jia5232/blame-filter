@@ -29,3 +29,6 @@ async def predict_profanity(data: TextData):
     is_profanity = prediction[0] == 1 
     return {"profanity": bool(is_profanity)}
 
+@app.get("/health-check")
+async def health_check():
+    return {"status": "ok"}
